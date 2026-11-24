@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Local source data; keep the instructions tracked.
+data/raw/*
+!data/raw/README.md
+
+# Private credentials never belong in repository commits.
+.env
+.env.*
+!.env.example
