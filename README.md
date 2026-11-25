@@ -12,8 +12,6 @@ CTS*2000 group project. We compare recommended and not-recommended Steam reviews
 | Warframe output | [outputs/warframe_negative_sample_check.csv](outputs/warframe_negative_sample_check.csv) | Saved manual-review results for Warframe |
 | Working notebook | [notebooks/Steam_Reviews_D2_VS_Warframe.ipynb](notebooks/Steam_Reviews_D2_VS_Warframe.ipynb) | The code that reads and compares both games |
 
-The two raw dataset folders are ready for uploads. The two CSV outputs and the notebook are already included.
-
 ## Step 1: add the two datasets
 
 1. Open each game's raw dataset folder above.
