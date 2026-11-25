@@ -1,67 +1,31 @@
-# What Players Value: Destiny 2 vs Warframe
+# Destiny 2 vs Warframe — Steam Reviews
 
-CTS*2000 — Scripting for the Humanities, University of Guelph, Fall 2026.
+CTS*2000 group project. We compare recommended and not-recommended Steam reviews.
 
-We compare recommended and not-recommended Steam reviews of Destiny 2 and
-Warframe. Our working notebook currently focuses on monetization language,
-keyword frequencies, percentages, and close reading of review examples.
+## Where everything goes
 
-## Start here
-
-| I want to… | Open |
-| --- | --- |
-| Know what to do next | [Task board](docs/task_board.md) |
-| Understand the assignment | [Requirements and deadlines](docs/assignment_requirements.md) |
-| Read our question and scope | [Project brief](docs/project_brief.md) |
-| Run the analysis | [Notebook instructions](notebooks/README.md) |
-| Check the current results | [Findings and limitations](docs/current_findings.md) |
-| Understand the dataset | [Data guide](data/README.md) |
-| Record my work | [Contributions](docs/contributions.md) |
-| Prepare the paper | [Paper outline](paper/outline.md) |
-| Prepare the presentation | [Presentation plan](presentation/run_of_show.md) |
-| Update the group | [Check-ins](docs/check_ins.md) |
-| Document AI assistance | [AI record](docs/ai_usage.md) |
-
-## Current status
-
-- The annotated working notebook is included unchanged.
-- The Destiny and Warframe manual-check CSVs are included.
-- Results listed here come from saved notebook outputs, not a fresh run on
-  the original Excel files. A complete rerun is still pending.
-- A spending-keyword match does not automatically mean a pricing complaint.
-- The proposal also covers gameplay and story. Broader theme comparisons
-  have not been completed in the current notebook; agree on final scope.
-- A final data visualization, presentation notebook, research paper, and
-  complete contribution/process records still need to be prepared.
-
-## Team
-
-Kenzo Miller · Rhea Castelino · Emily Ngo · Aaliyah Bajaj · Jordan Van Remortel
-
-These names come from the topic statement. GitHub handles and completed
-contributions must be recorded by the group; they are not inferred here.
-
-## Run the existing notebook
-
-Open `notebooks/Steam_Reviews_D2_VS_Warframe.ipynb` in Google Colab. Run the
-upload cell, select the two original Excel files, then run cells in order.
-The notebook uses `google.colab.files`; this setup does not convert it to a
-Codespaces or local Jupyter workflow.
-
-## Upcoming submission requirements
-
-| Deliverable | Requirement | Deadline in course outline |
+| Item | Location | What belongs here |
 | --- | --- | --- |
-| Presentation | One live Jupyter Notebook; 10 minutes + 10-minute Q&A | Final presentation week, Nov. 30 / Dec. 2 / Dec. 4; group slot TBD |
-| Research paper | 5–7 pages; at least one visualization; bibliography and author contributions | Dec. 7, 2026, 5 p.m. Toronto time |
-| GitHub repository | Original code, annotation, experiments and identifiable contributions | Dec. 7, 2026, 5 p.m. Toronto time |
+| Destiny 2 raw dataset | [data/raw/destiny2/](data/raw/destiny2/) | Original `7_Destiny_2_1085660xlsx.xlsx` |
+| Warframe raw dataset | [data/raw/warframe/](data/raw/warframe/) | Original `16_Warframe_230410.xlsx` |
+| Destiny 2 output | [outputs/destiny_negative_sample_check.csv](outputs/destiny_negative_sample_check.csv) | Saved manual-review results for Destiny 2 |
+| Warframe output | [outputs/warframe_negative_sample_check.csv](outputs/warframe_negative_sample_check.csv) | Saved manual-review results for Warframe |
+| Working notebook | [notebooks/Steam_Reviews_D2_VS_Warframe.ipynb](notebooks/Steam_Reviews_D2_VS_Warframe.ipynb) | The code that reads and compares both games |
 
-Dates are from the supplied course outline. Use a later instructor update
-if the schedule has changed. The setup does not mark any submission done.
+The two raw dataset folders are ready for uploads. The two CSV outputs and the notebook are already included.
 
-## Working together
+## Step 1: add the two datasets
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). Make small, identifiable commits,
-explain changes in pull requests, and record decisions and intermediate
-results. The task board is a Markdown file in this repository; it is not a
-live GitHub Projects board.
+1. Open each game's raw dataset folder above.
+2. Click **Add file → Upload files** and choose that game's Excel file.
+3. Keep the original filename and contents, then commit the upload.
+
+Each spreadsheet should contain a sheet named `Reviews`.
+
+## Step 2: run the notebook when ready
+
+1. [Open the working notebook in Google Colab](https://colab.research.google.com/github/kenzomiller11-dotcom/CTS2KSteamGroup/blob/main/notebooks/Steam_Reviews_D2_VS_Warframe.ipynb).
+2. Run its upload cell and select both original Excel files from your computer.
+3. Run the remaining cells in order. Upload the downloaded CSVs to [outputs/](outputs/) and save your updated notebook back to GitHub.
+
+Colab uploads and downloads are separate from GitHub. The included CSVs are saved results; this organization change did not rerun the analysis.

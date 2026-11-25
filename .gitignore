@@ -6,9 +6,8 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Local source data; keep the instructions tracked.
-data/raw/*
-!data/raw/README.md
+# Excel's temporary lock files.
+~$*.xls*
 
 # Private credentials never belong in repository commits.
 .env

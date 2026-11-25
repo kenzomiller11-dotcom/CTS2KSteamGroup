@@ -27,10 +27,11 @@ our subset as representative of all current players.
 The spelling of the Destiny filename matches the current code. Do not
 silently rename it or alter the loader during repository organization.
 
-The source spreadsheets are not bundled in this setup. Add your existing
-copies to `data/raw/` locally and upload them when Colab's upload cell asks.
-The default ignore rules keep those spreadsheets out of commits; the group
-may change that choice deliberately after agreeing on data sharing.
+The source spreadsheets have not been uploaded yet. Put the original Destiny 2 file in
+[data/raw/destiny2/](raw/destiny2/) and the Warframe file in
+[data/raw/warframe/](raw/warframe/). Keep both filenames and their contents unchanged.
+These folders accept dataset files in Git. When running the notebook, select both
+spreadsheets in its Google Colab upload cell; it does not load the repository folders automatically.
 
 ## Fields used by the current analysis
 
