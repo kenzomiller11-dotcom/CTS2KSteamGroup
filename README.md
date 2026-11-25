@@ -27,5 +27,3 @@ Each spreadsheet should contain a sheet named `Reviews`.
 1. [Open the working notebook in Google Colab](https://colab.research.google.com/github/kenzomiller11-dotcom/CTS2KSteamGroup/blob/main/notebooks/Steam_Reviews_D2_VS_Warframe.ipynb).
 2. Run its upload cell and select both original Excel files from your computer.
 3. Run the remaining cells in order. Upload the downloaded CSVs to [outputs/](outputs/) and save your updated notebook back to GitHub.
-
-Colab uploads and downloads are separate from GitHub. The included CSVs are saved results; this organization change did not rerun the analysis.
