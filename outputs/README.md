@@ -7,6 +7,4 @@
 
 These are the two existing CSV exports from the [working notebook](../notebooks/Steam_Reviews_D2_VS_Warframe.ipynb). Their contents were preserved when moved here.
 
-After rerunning the notebook on the original datasets, upload the downloaded CSVs here to update these files. Colab downloads do not automatically update GitHub.
-
 Additional saved keyword counts and space for later charts remain in [results/](../results/).
